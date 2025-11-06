@@ -1,14 +1,14 @@
 # Projeto Web
-Nosso projeto web desenvolvido ao longo do aprendizado da disciplina de  Web no curso ADS.
+Nosso projeto **Academico** web desenvolvido ao longo do aprendizado da disciplina de Desenvolvimento Web no curso ADS.
 - tema: Cinema
 - objetivo: Simular a compra do ingresso
 - stakeholders: Estudantes e professor
 - versão atual: 1.0
 # Funcionalidades:
-- simular a compra de ingresso:
-- ver e selecionar um filme em cartaz
-- preencher um formulario
-- escolher as cadeiras
-- visualizar confirmação.
+- Simular a compra de ingresso:
+- Ver e selecionar um filme em cartaz.
+- Preencher o formulario.
+- Ver e escolher cadeiras disponiveis.
+- Tela de confirmação da compra.
 - simular o cadastro no nosso site.
 
