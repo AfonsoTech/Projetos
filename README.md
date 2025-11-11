@@ -18,7 +18,7 @@ O projeto simula a experiência completa de compra de ingressos:
     * Preencher o formulário de dados.
     * Selecionar a(s) cadeira(s), combo(s) e opção de pagamento.
     *  Confirmar a compra.
-* Simular o cadastro de um novo usuário.
+* **Simular o cadastro de um novo usuário.**
 
   
 
