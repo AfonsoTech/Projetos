@@ -1,4 +1,9 @@
-
+body {
+    display: flex;             /* Habilita o Flexbox */
+    flex-direction: column;    /* Empilha os filhos (header, main, footer) verticalmente */
+    min-height: 100vh;         /* Garante que o body ocupe, no mínimo, a altura total da viewport */
+    margin: 0;                 /* Remove margens padrão do body */
+}
 header {
     background-color: #222; /* Cor de fundo do cabeçalho */
     color: white;
@@ -16,35 +21,46 @@ header nav h1 {
     margin: 0;
     font-family: Sans-serif;
     font-weight: bold;
-}  
-footer { 
-        background-color: #333;
-        color: #ccc; 
-        box-sizing: border-box;
-        padding: 35px 50px; 
-        font-size: 0.9em;
-        display: flex;
-        justify-content: space-between; 
-        align-items: center; 
-        position: fixed; 
-        bottom: 0;
-        width: 100%;
+}
+main {
+    flex-grow: 1; /* Faz com que o <main> ocupe todo o espaço vertical restante */
+}
+h1 {
+text-align: center;
+}
+h1, h2, p {
+font-family: Sans-serif;
+font-weight: bold;
+}
+.destaque-genero {
+color: orange;
+font-weight: bold;
+font-family: Sans-Serif;
+}
+footer {
+padding: 35px 50px;
+box-sizing: border-box;
+background-color: #222;
+align-itens: center;
+justify-content: space-between;
+display: flex;
 }
 footer p {
-     margin: 0; /* Remove margem padrão */
-     font-family: Sans-serif;
-     font-weight: bold;
+font-family: Sans-serif;
+color:white;
+font-weight: bold;
+margin: 0;
 }
 .footer-links {
      display: flex;
-     gap: 20px; 
+     gap: 20px;
 }
 .footer-links a {
-    color: #aaa; /* Cor um pouco mais clara para destaque */
-    text-decoration: none; /* Remove o sublinhado padrão */
-    transition: color 0.2s; /* Efeito suave ao passar o mouse */
-    font-family: Sans-serif;
-    font-weight: bold;
+font-family: Sans-serif;
+color: white;
+font-weight: bold;
+text-decoration: none;
+transition: color 0.2s;
 }
 .footer-links a:hover {
      color: #fff; /* Fica branco ao passar o mouse */
@@ -52,5 +68,4 @@ footer p {
 }
 
 
-       
 
