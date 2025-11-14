@@ -2,11 +2,10 @@
     box-sizing: border-box;
 }
 body {
-     background: radial-gradient(circle at top, #0d1b2a 0%, #000814 100%);
-     
-     margin: 0;
-     padding: 0;
-     font-family: Sans-serif;
+    background: radial-gradient(circle at top, #0d1b2a 0%, #000814 100%);
+    margin: 0;
+    padding: 0;
+    font-family: Sans-serif;
 }
 h1, h2 {
     color: #e67e22;
@@ -26,7 +25,6 @@ a {
     text-decoration: none;
     text-shadow: 0.7px 0.7px 0.7px white;
 }
-
 /* HEADER */
 header {
     display: flex;
@@ -47,7 +45,6 @@ header nav h1 {
     color: white;
     text-shadow: 0.7px 0.7px 0.7px white;
 }
-
 /* MAIN */
 main {
     max-width: 1000px;
@@ -58,7 +55,6 @@ main {
 main h1 {
     text-align: center;
 }
-
 /* BLOCO DE FILMES */
 .filme {
     display: flex;
@@ -70,14 +66,14 @@ main h1 {
     border-radius: 10px;
 }
 .filme img {
-  display: block;
-  margin: auto;
-  max-width: 100%;
-  height: auto;
-  border: 2px solid #e67e22;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
-  background: none;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #e67e22;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+    background: none;
 }
 .descricao {
     flex: 1;
@@ -101,40 +97,35 @@ main h1 {
     transform: scale(1.05);
     background: linear-gradient(90deg, #00ccff, #0077ff);
 }
-    .filme img {
-     display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
-  border: 2px solid #e67e22;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
-  background: radial-gradient(circle at top, #0d1b2a 0%, #000814 100%);
+.filme img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #e67e22;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+    background: radial-gradient(circle at top, #0d1b2a 0%, #000814 100%);
   }
-        .emoji-invocacao-do-mal img {
-           width: 60px;
-          border-radius: 10px;
-          border: 2px solid #e67e22;
-          box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
-          object-fit: cover;
-          
-        } 
-        button img {
-           background-color: #e67e22;
-           border-radius: 10px;
-           box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
-          cursor: pointer;
-          
-          transition: all 0.3s ease;
-          }
-          button:hover img {
+.emoji-invocacao-do-mal img {
+    width: 60px;
+    border-radius: 10px;
+    border: 2px solid #e67e22;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+    object-fit: cover;          
+} 
+button img {
+    background-color: #e67e22;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover img {
     box-shadow: 0 0 25px rgba(0, 200, 255, 0.9);
     transform: scale(1.05);
     background: linear-gradient(90deg, #00ccff, #0077ff);
-    
-    }
-
-
+}
 /* FOOTER */
 footer {
     display: flex;
@@ -147,9 +138,9 @@ footer {
 footer p {
     color: white;
     font-weight: bold;
-   font-siz: Sans-serif;
-   text-shadow: 0.7px 0.7px 0.7px white;
-   font-size: clamp(0.6rem, 3vw, 1.2rem);
+    font-size: Sans-serif;
+    text-shadow: 0.7px 0.7px 0.7px white;
+    font-size: clamp(0.6rem, 3vw, 1.2rem);
 }
 .links-rodapé {
     font-family: Sans-serif;
@@ -164,7 +155,6 @@ footer p {
     color: #fff;
     text-decoration: underline;
 }
-
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
     .filme {
@@ -183,4 +173,5 @@ footer p {
         flex-direction: column;
         text-align: center;
     }
+}
 
