@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
-}
+    }
+body {
+    display: flex;             /* Habilita o Flexbox */
+    flex-direction: column;    /* Empilha os filhos (header, main, footer) verticalmente */
+    min-height: 100vh;         /* Garante que o body ocupe, no mínimo, a altura total da viewport */
+    background: radial-gradient(circle at top, #0d1b2a 0%, #000814 100%);
+    margin: 0;
+    }
 button form {
     /*laranja fundo  */
            border-radius: 10px;
@@ -12,7 +19,7 @@ button:hover form {
     box-shadow: 0 0 25px rgba(0, 200, 255, 0.9);
     transform: scale(1.05);
     background: linear-gradient(90deg, #00ccff, #0077ff);
-    
+
     }
 body {
     display: flex;             /* Habilita o Flexbox */
@@ -22,7 +29,7 @@ body {
 
 }
 header {
-    padding: 8px 20px;
+    padding: 6px 20px;
     box-sizing: border-box;
     background-color: black;
     align-items: center;
@@ -101,16 +108,34 @@ select {
     box-shadow: 0 0 25px rgba(0, 200, 255, 0.9);
     transform: scale(1.05);
     background: linear-gradient(90deg, #ff9800, #e67e22);
-    
+
+}
+
+.links-rodapé {
+    display: flex;
+    gap: 20px;
+}
+.links-rodapé a {
+
 }
 footer {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    padding: 16px 30px;
+    padding: 20px 30px;
     flex-wrap: wrap;
+
 }
+footer p {
+    color: white;
+    font-weight: bold;
+   font-siz: Sans-serif;
+   text-shadow: 0.7px 0.7px 0.7px white;
+   font-size: clamp(0.6rem, 3vw, 1.2rem);
+}
+
 .links-rodapé {
     display: flex;
     gap: 20px;
@@ -125,14 +150,7 @@ footer {
     text-shadow: 0.7px 0.7px 0.7px white;
 }
 .links-rodapé a:hover {
-    color: #fff;
-    text-decoration: underline;
-    
+    color: #fff; /* Fica branco ao passar o mouse */
+    text-decoration: underline; /* Adiciona o sublinhado ao passar */
 }
-footer p {
-    color: white;
-    font-weight: bold;
-   font-siz: Sans-serif;
-   text-shadow: 0.7px 0.7px 0.7px white;
-   font-size: clamp(0.6rem, 3vw, 1.2rem);
-}
+
