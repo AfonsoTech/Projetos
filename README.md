@@ -1,6 +1,6 @@
 ## 📝 Sobre o Projeto
 
-Kayanoplex Cinemas é um software aplicativo web desenvolvido para fins acadêmicos.
+O Kayanoplex Cinemas é um software aplicativo web desenvolvido para fins acadêmicos.
 
 ---
 ## ✅ Objetivo
