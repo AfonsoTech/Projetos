@@ -1,14 +1,15 @@
 ## 💻 Sobre o Projeto
 
 Kayanoplex Cinemas é um software aplicativo web desenvolvido para fins acadêmicos.
+
 ---
 ## Objetivo
 Simular a compra de ingresso(s) de filmes em cartaz nos cinemas.
 
-* **Tema:** Cinema
-* **Objetivo:** Simular a compra de ingresso(s)
-* **Stakeholders:** Estudantes e Professor
-* **Versão Atual:** 1.0
+---
+
+## Stakeholders
+Estudantes e Professor
 
 ---
 
