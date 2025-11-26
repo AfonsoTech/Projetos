@@ -1,6 +1,6 @@
 ## 📝 Sobre o Projeto
 
-O Kayanoplex Cinemas é um software aplicativo web desenvolvido pelo grupo 5 de Desenvolvimento Web de ADS 2 período.
+O Kayanoplex Cinemas é um software aplicativo web desenvolvido pelo grupo 5 de Desenvolvimento Web ADS 2 período.
 
 ---
 ## ✅ Objetivo
