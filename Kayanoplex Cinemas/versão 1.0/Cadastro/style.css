@@ -19,6 +19,8 @@ header {
 .logo img {
    max-height: 80px;
    width: auto;
+   box-shadow: 0.7px 0.7px 0.7px white;
+   border-radius: 10px;
 }
 header nav h1 {
    font-family: Sans-serif;
@@ -147,7 +149,7 @@ display: flex;
 footer p {
     color: white;
     font-weight: bold;
-   font-siz: Sans-serif;
+   font-size: Sans-serif;
    text-shadow: 0.7px 0.7px 0.7px white;
    font-size: clamp(0.6rem, 3vw, 1.2rem);
 }
